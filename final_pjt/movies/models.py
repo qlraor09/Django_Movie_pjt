@@ -18,8 +18,8 @@ class Movie(models.Model):
     video = models.BooleanField()
     overview = models.TextField()
     original_language = models.CharField(max_length=30)
-    poster_path = models.CharField(max_length=255)
-    backdrop_path = models.CharField(max_length=255)
+    poster_path = models.CharField(max_length=255, null=True)
+    backdrop_path = models.CharField(max_length=255, null=True)
     # 원래 genres
     genre_ids = models.ManyToManyField(Genre, related_name='genres_ids')
     like_users = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_users')
