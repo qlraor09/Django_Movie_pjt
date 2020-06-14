@@ -3,22 +3,22 @@
 		"model": "movies.movie",
 		"fields": {
 			"popularity": 425.34,
-			"id": 419704,
+			"vote_count": 3690,
 			"video": false,
-			"vote_count": 3694,
-			"vote_average": 6,
-			"title": "애드 아스트라",
-			"release_date": "2019-09-17",
+			"poster_path": "/37M8j1nwMs8wu2H2tMtDjqhTSnd.jpg",
+			"id": 419704,
+			"adult": false,
+			"backdrop_path": "/5BwqwxMEjeFtdknRV792Svo0K1v.jpg",
 			"original_language": "en",
 			"original_title": "Ad Astra",
 			"genre_ids": [
 				18,
 				878
 			],
-			"backdrop_path": "/5BwqwxMEjeFtdknRV792Svo0K1v.jpg",
-			"adult": false,
+			"title": "애드 아스트라",
+			"vote_average": 6,
 			"overview": "희망과 갈등이 공존하는 가까운 미래. 미 육군 소령 '로이 맥브라이드'는 우주의 지적생명체를 찾기 위한 '리마 프로젝트'를 수행중에 실종된 아버지를 영웅이라 믿으며 우주 비행사의 꿈을 키웠다. 어느 날, '로이'는 이상 현상으로 우주 안테나에서 지구로 추락하는 사고를 당하고 인류를 위협할 전류 급증 현상인 '서지'가 자신의 아버지 '클리프 맥브라이드'가 벌인 위험한 실험에서 시작되었다는 이야기를 듣게된다. 아버지가 살아 있다는 충격적인 진실과 함께 그를 막아야 한다는 임무를 맡은 '로이'는 우주로 향하게 되는데…",
-			"poster_path": "/37M8j1nwMs8wu2H2tMtDjqhTSnd.jpg"
+			"release_date": "2019-09-17"
 		}
 	},
 	{
@@ -622,25 +622,25 @@
 		"model": "movies.movie",
 		"fields": {
 			"popularity": 63.915,
-			"vote_count": 4391,
-			"video": false,
-			"poster_path": "/6rthGOcMZgUUaWN4FGSTd3n3ovg.jpg",
 			"id": 546554,
-			"adult": false,
-			"backdrop_path": "/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg",
+			"video": false,
+			"vote_count": 4391,
+			"vote_average": 7.8,
+			"title": "나이브스 아웃",
+			"release_date": "2019-11-27",
 			"original_language": "en",
 			"original_title": "Knives Out",
 			"genre_ids": [
-				35,
-				80,
-				18,
 				9648,
-				53
+				53,
+				35,
+				18,
+				80
 			],
-			"title": "나이브스 아웃",
-			"vote_average": 7.8,
+			"backdrop_path": "/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg",
+			"adult": false,
 			"overview": "미스터리 소설의 대가인 작가 할란(크리스토퍼 플러머)이 자신의 85살 생일에 자신의 방에서 날카로운 단검으로 목이 그인 채 발견된다. 외딴 저택에 모인 할란의 간병인과 자식 내외, 그리고 3세들은 유산 상속을 놓고 대거 혼란에 빠진다. 파견된 형사들은 가족과의 면담을 할 수록 자살로 의견이 모이지만, 면담 중 멀찍이 떨어져 상황을 전망하는 푸른 눈의 사내는 형사들마저 압도하며 심문을 주도해나간다. 남자의 이름은 바로 브누아 블랑(대니얼 크레이그). 챔피언 사건을 해결해서 이름이 높아진 유명한 사립탐정이다.",
-			"release_date": "2019-11-27"
+			"poster_path": "/6rthGOcMZgUUaWN4FGSTd3n3ovg.jpg"
 		}
 	},
 	{

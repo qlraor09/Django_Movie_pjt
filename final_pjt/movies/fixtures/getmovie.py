@@ -39,10 +39,10 @@ for i in range(1, 51):
         #     ResultData[j]['overview'] = '1'
         # if 'original_language' not in ResultData[j].keys():
         #     ResultData[j]['original_language'] = '1'
-        # if 'poster_path' not in ResultData[j].keys():
-        #     ResultData[j]['poster_path'] = '1'
-        # if 'backdrop_path' not in ResultData[j].keys():
-        #     ResultData[j]['backdrop_path'] = '1'
+        # if ResultData[j]['poster_path'] == None:
+        #     ResultData[j]['poster_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
+        # if ResultData[j]['backdrop_path'] == None:
+        #     ResultData[j]['backdrop_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
 
 
         # if 'genre_ids' not in ResultData[j].keys():

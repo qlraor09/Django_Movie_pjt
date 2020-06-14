@@ -272,8 +272,6 @@ def recommand(request):
             results = random.sample(result, 10)
         else:  # 좋아요를 누른 영화(장르)가 없다면
             for k in range(15): # 평점 좋은 영화 15개 중에 10개 랜덤!
-                print('*****************************************************************')
-                print(len(movies))
                 result.append(movies[k])
             results = random.sample(result,10)
     context = {
