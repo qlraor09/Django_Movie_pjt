@@ -22,12 +22,15 @@ def index(request):
 
 @login_required
 def movie_create(request):
+    # superuser만 movie_create할 수 있음
+    if not request.user.is_superuser:
+        return redirect('movies:index')
     if request.method == 'POST':
         form = MovieForm(request.POST)
         if form.is_valid():
-            movie = form.save(commit=False)
-            movie.user = request.user
-            movie.save()
+            movie = form.save()
+            # movie.user = request.user
+            # movie.save()
             return redirect('movies:index')
     else:
         form = MovieForm()
@@ -40,6 +43,9 @@ def movie_create(request):
 @login_required
 def movie_update(request, movie_pk):
     movie = get_object_or_404(Movie, pk=movie_pk)
+    # superuser만 movie_update할 수 있음
+    if not request.user.is_superuser:
+        return redirect('movies:index')
     if request.user == movie.user:
         if request.method == 'POST':
             form = MovieForm(request.POST, instance=movie)
@@ -60,6 +66,9 @@ def movie_update(request, movie_pk):
 @require_POST
 def movie_delete(request, movie_pk):
     movie = get_object_or_404(Movie, pk=movie_pk)
+    # superuser만 movie_delete할 수 있음
+    if not request.user.is_superuser:
+        return redirect('movies:index')
     if request.user == movie.user:
         movie.delete()
     return redirect('movies:index')
