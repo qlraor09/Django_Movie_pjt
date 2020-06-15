@@ -7,6 +7,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user_model
 from django.core.paginator import Paginator
 import random
+import requests
 
 
 def index(request):
@@ -46,13 +47,15 @@ def movie_update(request, movie_pk):
     # superuser만 movie_update할 수 있음
     if not request.user.is_superuser:
         return redirect('movies:index')
-    if request.user == movie.user:
+    # if request.user == movie.user:
+    if request.user.is_superuser:
         if request.method == 'POST':
             form = MovieForm(request.POST, instance=movie)
             if form.is_valid():
-                movie = form.save(commit=False)
-                movie.user = request.user
-                movie.save()
+                movie = form.save()
+                # movie = form.save(commit=False)
+                # movie.user = request.user
+                # movie.save()
                 return redirect('movies:index')
         else:
             form = MovieForm(instance=movie)
@@ -69,7 +72,8 @@ def movie_delete(request, movie_pk):
     # superuser만 movie_delete할 수 있음
     if not request.user.is_superuser:
         return redirect('movies:index')
-    if request.user == movie.user:
+    # if request.user == movie.user:
+    if request.user.is_superuser:
         movie.delete()
     return redirect('movies:index')
 
@@ -98,15 +102,35 @@ def create(request, movie_pk):
 def detail(request, movie_pk):
     movie = get_object_or_404(Movie, pk=movie_pk)
     reviews = movie.review_set.all()
-
     # genre 뽑기
     genres = movie.genre_ids.all()
+    # youtube에서 트레일러 가져오기
+    # API_KEY : kyumin_api
+    
+    # const API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY
+    # const API_URL = 'https://www.googleapis.com/youtube/v3/search'
+    # VUE_APP_YOUTUBE_API_KEY=AIzaSyC1tQrciIigfPf2s0Acn9xsYsNgagaWT5g
 
-
+    YOUTUBE_API_KEY='AIzaSyBzP1Nq0VtqllvL8V2vag0H7nLfXCNAtKY'
+    # AIzaSyDU-_eW6fNS1ThG4DjvDS10G00OjsrnzgE
+    YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
+    params = {
+        'key': YOUTUBE_API_KEY,
+        'part': 'snippet',
+        'type': 'video',
+        'q': movie.title + 'trailer'
+    }
+    response = requests.get(YOUTUBE_URL, params=params).json()
+    # print(response)
+    video_id = response['items'][3]['id']['videoId']
+    # print(video_id)
+    video = f'https://www.youtube.com/embed/{video_id}'
+    # print(video)
     context = {
         'movie': movie,
         'reviews': reviews,
         'genres': genres,
+        'video': video
     }
     return render(request, 'movies/detail.html', context)
 
@@ -135,7 +159,8 @@ def update(request, movie_pk, review_pk):
                 review = form.save(commit=False)
                 review.user = request.user
                 review.save()
-                return redirect('movies:detail', movie_pk, review.pk)
+                # return redirect('movies:index')
+                return redirect('movies:review_detail', movie_pk, review.pk)
         else:
             form = ReviewForm(instance=review)
         context = {

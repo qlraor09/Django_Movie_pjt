@@ -3,10 +3,15 @@ from .models import Review, Comment, Movie, Genre
 
 
 class MovieForm(forms.ModelForm):
+    # 
     genre_ids = forms.ModelMultipleChoiceField(
         label = 'Genre',
         queryset = Genre.objects.all(),
         widget = forms.CheckboxSelectMultiple,
+    )
+    # release_date 를 달력에서 찾아서 하는거
+    release_date = forms.DateField(
+        widget=forms.widgets.DateInput(attrs={'type': 'date'})
     )
     class Meta:
         model = Movie
