@@ -12,11 +12,14 @@ import requests
 
 def index(request):
     movies = Movie.objects.order_by('-release_date') # 영화 개봉일 순으로 정렬하기
-    paginator = Paginator(movies, 10)
+    genres = Genre.objects.all()
+    paginator = Paginator(movies, 9)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     context = {
         'page_obj': page_obj,
+        'movies' : movies,
+        'genres' : genres,
     }
     return render(request, 'movies/index.html', context)
 
@@ -229,50 +232,50 @@ def like(request, movie_pk):
 ##############################################################################################
 # Genre 생성, 수정, 삭제
 
-@login_required
-def genre_create(request):
-    if request.method == 'POST':
-        form = GenreForm(request.POST)
-        if form.is_valid():
-            genre = form.save(commit=False)
-            genre.user = request.user
-            genre.save()
-            return redirect('movies:index')
-    else:
-        form = GenreForm()
-    context = {
-        'form': form,
-    }
-    return render(request, 'movies/genre_form.html', context)
+# @login_required
+# def genre_create(request):
+#     if request.method == 'POST':
+#         form = GenreForm(request.POST)
+#         if form.is_valid():
+#             genre = form.save(commit=False)
+#             genre.user = request.user
+#             genre.save()
+#             return redirect('movies:index')
+#     else:
+#         form = GenreForm()
+#     context = {
+#         'form': form,
+#     }
+#     return render(request, 'movies/genre_form.html', context)
 
 
-@login_required
-def genre_update(request, genre_pk):
-    genre = get_object_or_404(Genre, pk=genre_pk)
-    if request.user == genre.user:
-        if request.method == 'POST':
-            form = GenreForm(request.POST, instance=genre)
-            if form.is_valid():
-                genre = form.save(commit=False)
-                genre.user = request.user
-                genre.save()
-                return redirect('movies:index')
-        else:
-            form = GenreForm(instance=genre)
-        context = {
-            'form': form,
-            'genre': genre,
-        }
-        return render(request, 'movies/genre_form.html', context)
+# @login_required
+# def genre_update(request, genre_pk):
+#     genre = get_object_or_404(Genre, pk=genre_pk)
+#     if request.user == genre.user:
+#         if request.method == 'POST':
+#             form = GenreForm(request.POST, instance=genre)
+#             if form.is_valid():
+#                 genre = form.save(commit=False)
+#                 genre.user = request.user
+#                 genre.save()
+#                 return redirect('movies:index')
+#         else:
+#             form = GenreForm(instance=genre)
+#         context = {
+#             'form': form,
+#             'genre': genre,
+#         }
+#         return render(request, 'movies/genre_form.html', context)
 
 
-@login_required
-@require_POST
-def genre_delete(request, genre_pk):
-    genre = get_object_or_404(Genre, pk=genre_pk)
-    if request.user == genre.user:
-        genre.delete()
-    return redirect('movies:index')
+# @login_required
+# @require_POST
+# def genre_delete(request, genre_pk):
+#     genre = get_object_or_404(Genre, pk=genre_pk)
+#     if request.user == genre.user:
+#         genre.delete()
+#     return redirect('movies:index')
 
 #######################################################################
 # 영화추천

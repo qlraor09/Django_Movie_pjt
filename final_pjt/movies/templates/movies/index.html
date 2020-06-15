@@ -6,7 +6,6 @@
 <div class="d-flex justify-content-center" >
   <a href="{% url 'movies:recommand' %}" class="btn btn-danger mx-1">영화추천</a>
   {% if user.is_superuser %}
-  <a href="{% url 'movies:genre_create' %}" class="btn btn-primary float-right mx-1">장르목록추가</a>
   <a href="{% url 'movies:movie_create' %}" class="btn btn-primary float-right mx-1">영화목록추가</a>
   {% endif %}
 </div>
@@ -32,12 +31,12 @@
         <li class="list-group-item">개봉일: {{ movie.release_date }}</li>
         <li class="list-group-item">인기도: {{ movie.popularity }}</li>
         <li class="list-group-item">평점: {{ movie.vote_average }}</li>
-        <li class="list-group-item">문제의장르: {{ movie.genre_ids }}</li>
+        <li class="list-group-item">장르: 
+          {% for genre in movie.genre_ids.all %}
+          <span>{{ genre.name }}</span>
+          {% endfor %}
+        </li>
       </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
     </div>
   </div>
   {% endfor %}

@@ -40,7 +40,6 @@
 
 <h3 class="my-3">댓글목록</h3>
 
-{% for comment in comments %}
 
 <table class="table table-striped">
   <thead>
@@ -50,17 +49,17 @@
       <th scope="col">댓글 삭제</th>
     </tr>
   </thead>
+  {% for comment in comments %}
   <tbody>
-    <tr>
     	<td>{{ comment.user.username }}</td>
     	<td>{{ comment.content }}</td>
-		<td>{% if comment.user == request.user %}
-		<form action="{% url 'movies:comments_delete' movie.pk review.pk comment.pk %}" method="POST">
-			{% csrf_token %}
-			<button class="btn btn-secondary">x</button>
-		</form>
-		{% endif %}
-		</td>
+      <td>{% if comment.user == request.user %}
+      <form action="{% url 'movies:comments_delete' movie.pk review.pk comment.pk %}" method="POST">
+        {% csrf_token %}
+        <button class="btn btn-secondary">x</button>
+      </form>
+      {% endif %}
+      </td>
     </tr>
 {% endfor %}
   </tbody>
