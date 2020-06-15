@@ -94,27 +94,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 160.447,
-			"vote_count": 6,
-			"video": false,
-			"poster_path": "/f4Y5auc3FgaBJ0X2kjKIwgCecQZ.jpg",
-			"id": 660039,
-			"adult": false,
-			"backdrop_path": "/k0b33UJhJWC0TUjJGnQPm4spVaf.jpg",
-			"original_language": "ko",
-			"original_title": "옆집누나의맛",
-			"genre_ids": [
-				10749
-			],
-			"title": "옆집누나의맛",
-			"vote_average": 3,
-			"overview": "",
-			"release_date": "2019-12-30"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 113.292,
 			"id": 581859,
 			"video": false,
@@ -253,29 +232,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 139.943,
-			"vote_count": 128,
-			"video": false,
-			"poster_path": "/ij1ZfANM3EJm6HHS0ZXycX5f74i.jpg",
-			"id": 475430,
-			"adult": false,
-			"backdrop_path": "/o0F8xAt8YuEm5mEZviX5pEFC12y.jpg",
-			"original_language": "en",
-			"original_title": "Artemis Fowl",
-			"genre_ids": [
-				12,
-				14,
-				878
-			],
-			"title": "아르테미스 파울",
-			"vote_average": 5.3,
-			"overview": "",
-			"release_date": "2020-06-12"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 105.215,
 			"vote_count": 5369,
 			"video": false,
@@ -295,28 +251,6 @@
 			"vote_average": 7.9,
 			"overview": "제1차 세계대전이 한창인 1917년 4월 6일. 독일군에 의해 모든 통신망이 파괴된 상황 속에서 서부전선의영국군 병사 스코필드(조지 맥케이)와 블레이크(딘 찰스 채프먼)에게 하나의 미션이 주어졌다. 독일군의 함정에 빠진 영국군 부대의 수장 매켄지 중령(베네딕트 컴버배치)에게 에린무어 장군(콜린 퍼스)의 공격 중지 명령을 전달하라는 것. 블레이크는 데본셔 연대에 있는 형을 구하기 위해 기꺼이 임무를 수행한다. 동료인 스코필드는 처음엔 당황스러워하지만 이내 1600명의 동료들을 구하기 위해 전쟁터 한가운데를 가로지르는 여정에 동참한다.",
 			"release_date": "2019-12-25"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 97.353,
-			"vote_count": 1088,
-			"video": false,
-			"poster_path": "/ibaDBJBAvWd4J5lzfbpq1PJ6ZU1.jpg",
-			"id": 664413,
-			"adult": false,
-			"backdrop_path": "/27nn2YJBwY7a1etZ0AiIcOrIgu3.jpg",
-			"original_language": "pl",
-			"original_title": "365 dni",
-			"genre_ids": [
-				18,
-				10749
-			],
-			"title": "365 데이즈",
-			"vote_average": 7.1,
-			"overview": "",
-			"release_date": "2020-02-07"
 		}
 	},
 	{
@@ -623,28 +557,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 64.331,
-			"vote_count": 31,
-			"video": false,
-			"poster_path": "/trSmNw63luh84MBy5XLH0UiN1BC.jpg",
-			"id": 457712,
-			"adult": false,
-			"backdrop_path": "/uxvmoirhbve2JkYVCa18msE3f8R.jpg",
-			"original_language": "en",
-			"original_title": "The VelociPastor",
-			"genre_ids": [
-				28,
-				27
-			],
-			"title": "The VelociPastor",
-			"vote_average": 4.9,
-			"overview": "",
-			"release_date": "2018-09-28"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 68.163,
 			"vote_count": 15,
 			"video": false,
@@ -761,29 +673,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 82.452,
-			"id": 703134,
-			"video": false,
-			"vote_count": 5,
-			"vote_average": 5.8,
-			"title": "인퍼머스",
-			"release_date": "2020-06-12",
-			"original_language": "en",
-			"original_title": "Infamous",
-			"genre_ids": [
-				80,
-				53,
-				18
-			],
-			"backdrop_path": "/j57oUw8LIYvjOl0zs3A1A1UqwKH.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/q2lkJf1TAjImTHCEO7XvbqPtnPb.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 62.676,
 			"vote_count": 2360,
 			"video": false,
@@ -802,28 +691,6 @@
 			"vote_average": 7.4,
 			"overview": "세계에서 가장 위험한 도시로 납치된 의뢰인의 아들을 구하기 위해  전직 특수부대 출신 용병이 거대 범죄 조직에 맞서 벌이는 리얼 액션 구출극",
 			"release_date": "2020-04-24"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 81.417,
-			"vote_count": 3,
-			"video": false,
-			"poster_path": "/5ud97JNxaWXQGqaOv7eddvCNra0.jpg",
-			"id": 310583,
-			"adult": false,
-			"backdrop_path": "/eS7K5nQwLqY94Gma1r9L6G84oNw.jpg",
-			"original_language": "en",
-			"original_title": "Daddy's Girl",
-			"genre_ids": [
-				18,
-				53
-			],
-			"title": "Daddy's Girl",
-			"vote_average": 1,
-			"overview": "",
-			"release_date": "2020-06-15"
 		}
 	},
 	{
@@ -963,28 +830,6 @@
 			"vote_average": 5.9,
 			"overview": "1940년, 독일공군에 전패를 당한 영국은 외인 파일럿들로 303 전투비행중대를 만든다. 무시당하던 그들은 공중전에서 백전백승을 거두고 독일은 모든 전투기와 공습기로 총공격을 감행한다. 드디어 2차 세계대전의 운명을 가를 ‘영국 본토 항공전’이 시작되는데… 최초의 전투기 전면전을 목격하라!",
 			"release_date": "2018-09-07"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 47.517,
-			"vote_count": 9,
-			"video": false,
-			"poster_path": "/cDbOrc2RtIA37nLm0CzVpFLrdaG.jpg",
-			"id": 513584,
-			"adult": false,
-			"backdrop_path": "/13b8KdDyG5YvMpTY0tH1hPR2APn.jpg",
-			"original_language": "en",
-			"original_title": "Think Like a Dog",
-			"genre_ids": [
-				35,
-				10751
-			],
-			"title": "Think Like a Dog",
-			"vote_average": 8,
-			"overview": "",
-			"release_date": "2020-06-05"
 		}
 	},
 	{
@@ -1291,27 +1136,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 47.268,
-			"vote_count": 122,
-			"video": false,
-			"poster_path": "/elEHm8d9yHYv1ua3hyukPZQjpGi.jpg",
-			"id": 10871,
-			"adult": false,
-			"backdrop_path": "/awC7dHRsq1z5vlBcbV42CAeTUrF.jpg",
-			"original_language": "en",
-			"original_title": "Switchback",
-			"genre_ids": [
-				53
-			],
-			"title": "스위치 킬러",
-			"vote_average": 6,
-			"overview": "",
-			"release_date": "1997-10-31"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 45.065,
 			"id": 672,
 			"video": false,
@@ -1540,29 +1364,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 36.42,
-			"vote_count": 3,
-			"video": false,
-			"poster_path": "/1R3hwwMVlalodwTmEk1fE7AiMpr.jpg",
-			"id": 527865,
-			"adult": false,
-			"backdrop_path": "/2NniMVeu28Cod7Cnkwy9lCsbJxz.jpg",
-			"original_language": "en",
-			"original_title": "Nater Guru",
-			"genre_ids": [
-				35,
-				18,
-				10749
-			],
-			"title": "Nater Guru",
-			"vote_average": 2.7,
-			"overview": "",
-			"release_date": "2003-03-14"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 49.22,
 			"vote_count": 1730,
 			"video": false,
@@ -1582,28 +1383,6 @@
 			"vote_average": 6.8,
 			"overview": "동물들과 소통하는 특별한 능력을 지닌 닥터 두리틀(로버트 다우니 주니어). 그의 놀라운 능력만이 위험에 빠진 왕국을 구할 수 있음을 알게 되고 두리틀은 자신의 동물들과 함께 미지의 세계로 떠나게 되는데…",
 			"release_date": "2020-01-01"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 34.824,
-			"vote_count": 428,
-			"video": false,
-			"poster_path": "/dqA2FCzz4OMmXLitKopzf476RVB.jpg",
-			"id": 585244,
-			"adult": false,
-			"backdrop_path": "/21Q8bzu10YF9i4O5amBkJBombYo.jpg",
-			"original_language": "en",
-			"original_title": "I Still Believe",
-			"genre_ids": [
-				18,
-				10402
-			],
-			"title": "아이 스틸 빌리브",
-			"vote_average": 7.8,
-			"overview": "",
-			"release_date": "2020-03-12"
 		}
 	},
 	{
@@ -1702,49 +1481,25 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 41.45,
-			"vote_count": 33,
+			"popularity": 41.781,
+			"id": 431693,
 			"video": false,
-			"poster_path": "/xqbQtMffXwa3oprse4jiHBMBvdW.jpg",
-			"id": 601844,
-			"adult": false,
-			"backdrop_path": "/qTrpw2ZUvN7ywUu1kieEsvNDrgQ.jpg",
+			"vote_count": 1194,
+			"vote_average": 7.7,
+			"title": "스파이 지니어스",
+			"release_date": "2019-12-04",
 			"original_language": "en",
-			"original_title": "Becky",
+			"original_title": "Spies in Disguise",
 			"genre_ids": [
-				28,
-				27,
-				53
-			],
-			"title": "베키",
-			"vote_average": 6.4,
-			"overview": "",
-			"release_date": "2020-06-05"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 38.359,
-			"vote_count": 559,
-			"video": false,
-			"poster_path": "/c01Y4suApJ1Wic2xLmaq1QYcfoZ.jpg",
-			"id": 618344,
-			"adult": false,
-			"backdrop_path": "/sQkRiQo3nLrQYMXZodDjNUJKHZV.jpg",
-			"original_language": "en",
-			"original_title": "Justice League Dark: Apokolips War",
-			"genre_ids": [
+				16,
 				28,
 				12,
-				16,
-				14,
-				878
+				35
 			],
-			"title": "저스티스 리그 다크: 아포콜립스 워",
-			"vote_average": 8.5,
-			"overview": "",
-			"release_date": "2020-05-05"
+			"backdrop_path": "/lwSOhnpwrzjtKi2RD3e5RAcGzvt.jpg",
+			"adult": false,
+			"overview": "전 세계를 위협하는 불법 무기 거래 첩보를 입수한 스파이 에이전트는 천상천하 유아독존 슈퍼 스파이 ‘랜스’(윌 스미스)를 파견한다. 하지만, 최첨단 장비로 무장한 정체불명의 빌런 ‘킬리언’(벤 맨델슨)은 ‘랜스’로 위장해 무기를 훔치고 그를 함정에 빠트린다. 무기를 훔쳤다는 누명을 쓰고 스파이 에이전트에게까지 쫓기게 된 ‘랜스’는 ‘킬리언’에 맞서기 위해 MIT 출신의 엉뚱한 지니어스 ‘월터’(톰 홀랜드)를 찾아간다. 그러나, ‘월터’가 실험 중인 의문의 액체를 마시고 한순간에 세상 흔한 오조오억 비둘기로 변해버리고 만다. 혼자서는 세상을 구할 수 없는 ‘새’가 된 스파이 ‘랜스’는 힘을 합치면 세상을 구할 수 있다고 믿는 ‘새’가슴 지니어스 ‘월터’와 어쩔 수 없이 한 팀이 되어 특급 미션을 시작해야 하는데… 나는 놈 & 별난 놈, ‘새’ 상초월 극한 팀플레이가 시작된다! 2020년 1월, 스파이 액션의 기준이 바뀐다구구구",
+			"poster_path": "/wFGQIAb6zjbKSbOer2a9TksWYyY.jpg"
 		}
 	},
 	{
@@ -2046,29 +1801,6 @@
 			"vote_average": 7.7,
 			"overview": "고등학생 타일러는 완벽해 보인다. 부유한 부모와 멋진 집, 착한 여동생, 예쁜 여자친구까지 있는 그는 교내 레슬링 대표 선수다. 하지만 그의 삶을 한 꺼풀 벗겨 보면 치명적 부상을 입은 상태에, 아버지는 강압적이며, 여자친구는 임신을 한 상황이다. 이제 이야기는 파국으로 향하고 이내 다른 이야기가 시작된다.",
 			"release_date": "2019-11-15"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 23.496,
-			"vote_count": 85,
-			"video": false,
-			"poster_path": "/2GQGcJS6UwvePGWlmn73SvldZqW.jpg",
-			"id": 205891,
-			"adult": false,
-			"backdrop_path": "/rStHKPfxcuTXnKdYAyuZNpz0YsV.jpg",
-			"original_language": "en",
-			"original_title": "The Demented",
-			"genre_ids": [
-				18,
-				27,
-				53
-			],
-			"title": "The Demented",
-			"vote_average": 3.8,
-			"overview": "",
-			"release_date": "2013-07-30"
 		}
 	},
 	{
@@ -2622,28 +2354,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 31.465,
-			"vote_count": 10,
-			"video": false,
-			"poster_path": "/jZIceEQEp3mlwhgT8eLOMdeWFZX.jpg",
-			"id": 696007,
-			"adult": false,
-			"backdrop_path": "/1xYTUpCutAYgpbqC9Gxw7qIbc0T.jpg",
-			"original_language": "en",
-			"original_title": "Legacy",
-			"genre_ids": [
-				28,
-				53
-			],
-			"title": "레거시",
-			"vote_average": 6.4,
-			"overview": "",
-			"release_date": "2020-05-28"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 37.155,
 			"vote_count": 2552,
 			"video": false,
@@ -2779,28 +2489,6 @@
 			"adult": false,
 			"overview": "잭 스패로우(조니 뎁)는 10년 전의 반란 사건으로 자신의 배 블랙펄을 빼앗긴 해적 선장이다. 혼자 대양을 떠돌던 그는 자메이카의 로열포트에 이르러 유령선처럼 변해버린 블랙펄과 재회하게 된다. 아즈텍의 황금을 훔친 블랙펄의 선원들은 영원히 죽지 못하는 저주에 걸린 처지. 보물을 모두 제자리에 돌려놓고 피의 제물을 바쳐야만 고대 신들이 내린 저주를 풀 수 있다. 그들은 로열포트를 습격해 아즈텍의 마지막 목걸이를 가진 총독의 딸 엘리자베스(카이라 나이틀리)를 납치하고, 엘리자베스를 사랑하는 어린 시절 친구 윌(올랜도 블룸)과 스패로우는 그 뒤를 쫓는데...",
 			"poster_path": "/3ovejwQO4fKOWx4VgGBJeT8CKCn.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 31.225,
-			"vote_count": 3,
-			"video": false,
-			"poster_path": "/6TShlXs1W99qBDGgY15dLqF57z.jpg",
-			"id": 611356,
-			"adult": false,
-			"backdrop_path": "/p2K8kW52CrAknEVoUNt013zHVqg.jpg",
-			"original_language": "hi",
-			"original_title": "Gulabo Sitabo",
-			"genre_ids": [
-				35,
-				18
-			],
-			"title": "Gulabo Sitabo",
-			"vote_average": 3.7,
-			"overview": "",
-			"release_date": "2020-06-12"
 		}
 	},
 	{
@@ -3365,29 +3053,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 38.377,
-			"id": 468816,
-			"video": false,
-			"vote_count": 23,
-			"vote_average": 6.4,
-			"title": "라이징 호크",
-			"release_date": "2019-10-10",
-			"original_language": "uk",
-			"original_title": "Захар Беркут",
-			"genre_ids": [
-				18,
-				36,
-				28
-			],
-			"backdrop_path": "/sxI7nxy18fapiE1XNBuiQaIQhlS.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/pYvdN5C0s8NWAEUPbM4qla3SnFz.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 37.97,
 			"vote_count": 433,
 			"video": false,
@@ -3565,6 +3230,29 @@
 			"adult": false,
 			"overview": "서로 다른 차원에 살고 있던 인간과 오크.  오크의 행성이 황폐해지기 시작하자, 이들은 인간의 행성으로 넘어와 새로운 왕국을 건설하려 한다. 생존을 위해 서로의 도움이 필요하다고 믿는 인간 종족의 영웅 ‘로서’와 오크 종족의 영웅 ‘듀로탄’. 하지만, 공존에 반대하는 또 다른 세력이 분열되면서 두 진영은 더 큰 혼란에 빠지게 되는데…  세상의 운명을 건 피할 수 없는 전쟁이 시작된다!",
 			"poster_path": "/gQgVIElQcC7Rfhjr6E6DxWg5v77.jpg"
+		}
+	},
+	{
+		"model": "movies.movie",
+		"fields": {
+			"popularity": 33.416,
+			"id": 218,
+			"video": false,
+			"vote_count": 8305,
+			"vote_average": 7.6,
+			"title": "터미네이터",
+			"release_date": "1984-10-26",
+			"original_language": "en",
+			"original_title": "The Terminator",
+			"genre_ids": [
+				28,
+				53,
+				878
+			],
+			"backdrop_path": "/wh4ze6klUbeichAj603OKZwY1W5.jpg",
+			"adult": false,
+			"overview": "1997년, 인간이 만든 인공지능 컴퓨터 전략 방어 네트워크가 스스로의 지능을 갖추고는 인류를 핵전쟁의 참화을 일으켜 30억이라는 인류를 잿더미 속에 묻어버린다. 그리고 남은 인간들은 기계의 지배를 받아 시체를 처리하는 일 등에 동원된다. 이때 비상한 지휘력과 작전으로 인간들을 이끌던 사령관 존 코너는 반기계 연합을 구성, 기계와의 전쟁을 시작하면서 상황은 반전된다. 이에 기계는 존 코너의 탄생 자체를 막기 위해 2029년의 어느 날 타임머신에 터미네이터를 태워서 1984년의 L.A로 보내게 된다.",
+			"poster_path": "/y6FmrimVoBBKsERc08VyVP1NyNs.jpg"
 		}
 	},
 	{
@@ -3774,29 +3462,6 @@
 			"vote_average": 8.5,
 			"overview": "평범한 열 살 짜리 소녀 치히로 식구는 이사 가던 중 길을 잘못 들어 낡은 터널을 지나가게 된다. 터널 저편엔 폐허가 된 놀이공원이 있었고 그곳엔 이상한 기운이 흘렀다. 인기척 하나 없는 이 마을의 낯선 분위기에 불길한 기운을 느낀 치히로는 부모님에게 돌아가자고 조르지만 부모님은 호기심에 들떠 마을 곳곳을 돌아다니기 시작한다. 어느 음식점에 도착한 치히로의 부모님은 그 곳에 차려진 음식들을 보고 즐거워하며 허겁지겁 먹어대다가 돼지로 변해버린다. 겁에 질려 당황하는 치히로에게 낯선 소년 하쿠가 나타나 빨리 이곳을 나가라고 소리치는데...",
 			"release_date": "2001-07-20"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 33.416,
-			"id": 218,
-			"video": false,
-			"vote_count": 8305,
-			"vote_average": 7.6,
-			"title": "터미네이터",
-			"release_date": "1984-10-26",
-			"original_language": "en",
-			"original_title": "The Terminator",
-			"genre_ids": [
-				28,
-				53,
-				878
-			],
-			"backdrop_path": "/wh4ze6klUbeichAj603OKZwY1W5.jpg",
-			"adult": false,
-			"overview": "1997년, 인간이 만든 인공지능 컴퓨터 전략 방어 네트워크가 스스로의 지능을 갖추고는 인류를 핵전쟁의 참화을 일으켜 30억이라는 인류를 잿더미 속에 묻어버린다. 그리고 남은 인간들은 기계의 지배를 받아 시체를 처리하는 일 등에 동원된다. 이때 비상한 지휘력과 작전으로 인간들을 이끌던 사령관 존 코너는 반기계 연합을 구성, 기계와의 전쟁을 시작하면서 상황은 반전된다. 이에 기계는 존 코너의 탄생 자체를 막기 위해 2029년의 어느 날 타임머신에 터미네이터를 태워서 1984년의 L.A로 보내게 된다.",
-			"poster_path": "/y6FmrimVoBBKsERc08VyVP1NyNs.jpg"
 		}
 	},
 	{
@@ -4188,30 +3853,6 @@
 			"adult": false,
 			"overview": "1955년 일본의 아름다운 시골 마을, 상냥하고 의젓한 11살 사츠키와 장난꾸러기에 호기심 많은 4살의 메이 는 사이좋은 자매로 아빠와 함께 도시를 떠나 시골로 이사온다. 자상한 아빠 쿠사카베타츠오는 도쿄에서 대학 연구원이며, 입원 중이지만 따뜻한 미소를 잃지 않는 엄마가 있다. 곧 퇴원하실 엄마를 공기가 맑은 곳에서 맞이하기 위해서다. 숲 한복판에 금방이라도 쓰러질 것처럼 낡은 집을 보며 자매는 새로운 환경에 대한 호기심으로 잔뜩 들뜬다. 그러던 어느 날 사츠키가 학교에 간 동안 메이는 숲에서 정령을 만나다. 메이는 그 정령에게 토토로란 이름을 붙여주는데...",
 			"poster_path": "/csiklRMzvXRLKtFcIlEDeEU7nWr.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 41.781,
-			"id": 431693,
-			"video": false,
-			"vote_count": 1194,
-			"vote_average": 7.7,
-			"title": "스파이 지니어스",
-			"release_date": "2019-12-04",
-			"original_language": "en",
-			"original_title": "Spies in Disguise",
-			"genre_ids": [
-				16,
-				28,
-				12,
-				35
-			],
-			"backdrop_path": "/lwSOhnpwrzjtKi2RD3e5RAcGzvt.jpg",
-			"adult": false,
-			"overview": "전 세계를 위협하는 불법 무기 거래 첩보를 입수한 스파이 에이전트는 천상천하 유아독존 슈퍼 스파이 ‘랜스’(윌 스미스)를 파견한다. 하지만, 최첨단 장비로 무장한 정체불명의 빌런 ‘킬리언’(벤 맨델슨)은 ‘랜스’로 위장해 무기를 훔치고 그를 함정에 빠트린다. 무기를 훔쳤다는 누명을 쓰고 스파이 에이전트에게까지 쫓기게 된 ‘랜스’는 ‘킬리언’에 맞서기 위해 MIT 출신의 엉뚱한 지니어스 ‘월터’(톰 홀랜드)를 찾아간다. 그러나, ‘월터’가 실험 중인 의문의 액체를 마시고 한순간에 세상 흔한 오조오억 비둘기로 변해버리고 만다. 혼자서는 세상을 구할 수 없는 ‘새’가 된 스파이 ‘랜스’는 힘을 합치면 세상을 구할 수 있다고 믿는 ‘새’가슴 지니어스 ‘월터’와 어쩔 수 없이 한 팀이 되어 특급 미션을 시작해야 하는데… 나는 놈 & 별난 놈, ‘새’ 상초월 극한 팀플레이가 시작된다! 2020년 1월, 스파이 액션의 기준이 바뀐다구구구",
-			"poster_path": "/wFGQIAb6zjbKSbOer2a9TksWYyY.jpg"
 		}
 	},
 	{
@@ -4727,27 +4368,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 24.874,
-			"vote_count": 3,
-			"video": false,
-			"poster_path": "/1VmWvthn4OGlxIXspNgAC65agQR.jpg",
-			"id": 706345,
-			"adult": false,
-			"backdrop_path": "/xbu8UeKc1IKnsfkczJ07QDJffXN.jpg",
-			"original_language": "en",
-			"original_title": "Jo Koy: In His Elements",
-			"genre_ids": [
-				35
-			],
-			"title": "Jo Koy: In His Elements",
-			"vote_average": 5,
-			"overview": "",
-			"release_date": "2020-06-12"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 28.107,
 			"id": 58,
 			"video": false,
@@ -5001,28 +4621,6 @@
 			"vote_average": 6.6,
 			"overview": "사건 사고가 끊이지 않는 동화의 섬. 사라진 아빠를 찾던 화이트 왕국의 공주는 우연히 마법구두를 신고 이전과 완벽하게 다른 ‘레드슈즈’로 거듭난다. 한편, 초록색 난쟁이가 된 일곱 왕자들은 우연히 자신들의 집에 머물게 된 '레드슈즈’가 저주를 풀 유일한 희망이라 생각해 그녀를 돕기 시작하고, 영원한 아름다움을 꿈꾸는 왕비 ‘레지나’는 마법구두를 신고 성을 빠져나간 ‘레드슈즈’를 쫓기 시작하는데…",
 			"release_date": "2019-07-25"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 24.28,
-			"id": 696817,
-			"video": false,
-			"vote_count": 2,
-			"vote_average": 6,
-			"title": "Love in the Forecast",
-			"release_date": "2020-06-13",
-			"original_language": "en",
-			"original_title": "Love in the Forecast",
-			"genre_ids": [
-				10749,
-				10770
-			],
-			"backdrop_path": "/cPbTmfkyWwKkJSJ9C3Nz5eQBcdP.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/w5mSrAxxUGxuOF0dERAkJesvuLr.jpg"
 		}
 	},
 	{
@@ -5576,28 +5174,6 @@
 			"vote_average": 6.2,
 			"overview": "왕따에게도 왕따 당하던 8살 존(마크 월버그)의 크리스마스 소원으로 살아 움직이게 된 테드(세스 맥팔레인)! 무적의 썬더 버디로 30년 동안 철없고 끈끈한 우정을 이어가던 둘은 테드가 인간이 아니라 물건(?)이라는 법원의 판결로 멘붕에 빠진다. 빡친 테드는 존과 함께 자신의 인권(?)을 입증하기 위해 승률 99.8% 변호사 사만다(아만다 사이프리드)를 찾아가는데……",
 			"release_date": "2015-06-25"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 25.909,
-			"vote_count": 84,
-			"video": false,
-			"poster_path": "/zOQ8G8Ov8O1EzJgfWWQnowJeYlV.jpg",
-			"id": 620883,
-			"adult": false,
-			"backdrop_path": "/prnq2ONhqo9Tga7dOMZKgFJMofs.jpg",
-			"original_language": "es",
-			"original_title": "La corazonada",
-			"genre_ids": [
-				80,
-				53
-			],
-			"title": "인튜이션",
-			"vote_average": 6.2,
-			"overview": "",
-			"release_date": "2020-05-28"
 		}
 	},
 	{
@@ -6221,27 +5797,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 25.937,
-			"vote_count": 130,
-			"video": false,
-			"poster_path": "/uQpORoNWdArirCAKu14ageRZbEE.jpg",
-			"id": 477018,
-			"adult": false,
-			"backdrop_path": "/uaC1Swfs1fo7Y9fV1iRHzLdhFHo.jpg",
-			"original_language": "fr",
-			"original_title": "Les Traducteurs",
-			"genre_ids": [
-				53
-			],
-			"title": "Les Traducteurs",
-			"vote_average": 6.9,
-			"overview": "",
-			"release_date": "2019-12-20"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 24.78,
 			"id": 8920,
 			"video": false,
@@ -6608,52 +6163,6 @@
 			"adult": false,
 			"overview": "1가구 1자녀 ‘산아제한법’으로 인구증가를 통제하는 사회, 태어나서는 안 될 일곱 쌍둥이가 태어났다. 이들을 몰래 키우기로 결심한 외할아버지 ‘테렌스 셋맨’(윌렘 대포)은 먼데이, 튜즈데이, 웬즈데이, 써스데이, 프라이데이, 새터데이, 선데이라는 이름을 지어주고 쌍둥이들이 발각되지 않고 모두 살아 남을 수 있도록 엄격한 규칙을 만든다.  첫째. ‘카렌 셋맨’이라는 하나의 이름으로 살 것.  둘째. 자신의 이름과 같은 요일에만 외출할 것. 셋째. 외출해서 한 일은 모두에게 공유할 것. 어느 월요일 저녁, 평소처럼 출근했던 ‘먼데이’가 연락도 없이 사라지고 정부의 비밀 조직이 이들의 은신처에 갑자기 들이닥치는데…  더 이상 하나의 이름 뒤에 숨어있을 수 없는 일곱 쌍둥이들의 목숨을 건 팀플레이 액션이 시작된다!",
 			"poster_path": "/24UjiNicLPcUCn8lvPbyITSiglA.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 29.653,
-			"vote_count": 24,
-			"video": false,
-			"poster_path": "/iSwTnNS7TKAS79Sz9LvyqlBxxrU.jpg",
-			"id": 547017,
-			"adult": false,
-			"backdrop_path": "/97UR8xPpUNqpvx5zr7eyf4YSBCE.jpg",
-			"original_language": "en",
-			"original_title": "Shirley",
-			"genre_ids": [
-				18,
-				53
-			],
-			"title": "셜리",
-			"vote_average": 6.7,
-			"overview": "",
-			"release_date": "2020-01-25"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 25.912,
-			"id": 473033,
-			"video": false,
-			"vote_count": 1986,
-			"vote_average": 7.1,
-			"title": "언컷 젬스",
-			"release_date": "2019-08-30",
-			"original_language": "en",
-			"original_title": "Uncut Gems",
-			"genre_ids": [
-				80,
-				53,
-				18,
-				35
-			],
-			"backdrop_path": "/5qTZGBHJNq6riBliYtOnH4yUN6x.jpg",
-			"adult": false,
-			"overview": "빚더미에 올라앉으니, 빚쟁이들의 분노가 하늘을 찌른다. 이대로 무너질 수는 없는 뉴욕의 보석상. 입만 살아 떠드는 그가 진정 살길을 모색한다. 한탕에 모든 것을 건다.",
-			"poster_path": "/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg"
 		}
 	},
 	{
@@ -7195,27 +6704,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 22.603,
-			"id": 614626,
-			"video": false,
-			"vote_count": 4,
-			"vote_average": 5,
-			"title": "Outback",
-			"release_date": "2019-10-12",
-			"original_language": "en",
-			"original_title": "Outback",
-			"genre_ids": [
-				53
-			],
-			"backdrop_path": "/3u7DK60bt7iAbvWH9czLwNOkqhk.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/8D2wfklvqrsjEInqNQ3NHCmAzxC.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 26.625,
 			"id": 158852,
 			"video": false,
@@ -7585,6 +7073,30 @@
 	{
 		"model": "movies.movie",
 		"fields": {
+			"popularity": 25.912,
+			"id": 473033,
+			"video": false,
+			"vote_count": 1986,
+			"vote_average": 7.1,
+			"title": "언컷 젬스",
+			"release_date": "2019-08-30",
+			"original_language": "en",
+			"original_title": "Uncut Gems",
+			"genre_ids": [
+				80,
+				53,
+				18,
+				35
+			],
+			"backdrop_path": "/5qTZGBHJNq6riBliYtOnH4yUN6x.jpg",
+			"adult": false,
+			"overview": "하워드 래트너(애덤 샌들러)는 뉴욕에서 보석상을 하는 유대인이다. 그러나 보석과 장물을 가지고 계속 돌려막기를 하는 탓에 여러 군데에 빚을 지고 있고, 심지어는 친척인 아르노에게까지 빚을 져 아르노의 빚쟁이에게 독촉을 당하는 상황. 어느 날 보스턴 셀틱스 소속 NBA 슈퍼스타 케빈 가넷이 하워드의 보석상에 구경을 오게 된다. 변변찮은 물건들에 가넷이 실망을 하고 돌아가려는 찰나 에티오피아에서 17개월을 걸려 공수한 큼지막한 오팔이 도착한다. 오팔을 본 가넷은 신비한 기운을 느끼고, 이건 신의 계시라며 자신에게 오팔을 팔아달라고 말하지만 하워드는 거절한다. 드마니와 가넷의 계속된 설득 끝에 하워드는 그의 우승반지를 담보로 오팔을 빌려주는데...",
+			"poster_path": "/6XN1vxHc7kUSqNWtaQKN45J5x2v.jpg"
+		}
+	},
+	{
+		"model": "movies.movie",
+		"fields": {
 			"popularity": 25.455,
 			"vote_count": 4380,
 			"video": false,
@@ -7695,30 +7207,6 @@
 			"adult": false,
 			"overview": "1969년 아폴로 11호가 인류 최초의 달 착륙에 성공 이후 1 년 뒤, 아폴로 13호가 발사된다. 새턴 5호 로켓에 실린 아폴로 13호는 어마어마한 화염을 일으키며 하늘로 솟아오르지만, 모의 비행 때부터 불길한 조짐을 보였던 아폴로 13호는 우주에 나간 후 산소통과 연료 탱크가 유실되고 자동유도 장치마저 꺼지는 절대절명의 위기를 맞는다. 휴스턴 기지에 수천 명의 전문가가 모여 승무원의 무사귀환을 논의하는 가운데 졸지에 우주 미아가 된 아폴로 13호의 세 우주 비행사는 극도의 두려움을 느끼며 어둠과 추위에 이겨나가려 하는데...",
 			"poster_path": "/56z6pwLxkWggyUPNMkBDV6LglKC.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 30.83,
-			"id": 407655,
-			"video": false,
-			"vote_count": 525,
-			"vote_average": 7,
-			"title": "A Cinderella Story: If the Shoe Fits",
-			"release_date": "2016-08-02",
-			"original_language": "en",
-			"original_title": "A Cinderella Story: If the Shoe Fits",
-			"genre_ids": [
-				35,
-				10751,
-				14,
-				10402
-			],
-			"backdrop_path": "/adM7v1IbTXRKuE4AlQ5VyM5GQpt.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/5BfQX99gI0iNnDP5MSpv3E0ndc0.jpg"
 		}
 	},
 	{
@@ -8044,28 +7532,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 16.289,
-			"id": 709326,
-			"video": false,
-			"vote_count": 1,
-			"vote_average": 1,
-			"title": "The Confession of Max",
-			"release_date": "2020-06-13",
-			"original_language": "en",
-			"original_title": "The Confession of Max",
-			"genre_ids": [
-				18,
-				53
-			],
-			"backdrop_path": null,
-			"adult": false,
-			"overview": "",
-			"poster_path": "/7Ac3UD91UIYJes5scdl7wjGFAlK.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 21.756,
 			"vote_count": 2472,
 			"video": false,
@@ -8179,27 +7645,6 @@
 			"adult": false,
 			"overview": "뉴욕 경찰관 존 맥클레인(브루스 윌리스)은 떨어져 사는 아내 홀리 (보니 델리아)를 만나기 위해 LA의 나카도미 빌딩으로 찾아간다. 그러나 파티가 한창 무르익을 무렵, 한스 그루버(알란 릭맨)가 이끄는 일단의 테러리스트들이 침입, 사장을 비롯한 파티 참석자 30여 명을 인질로 삼고 건물 금고에 소장하고 있는 돈과 보물을 손에 넣으려 한다. 최첨단 하이테크에 의해 관리되던 34층짜리 나카토미 빌딩은 통채로 테러리스트들의 수중으로 넘어가 폐쇄되고 고층 빌딩은 살벌한 생존 게임의 전쟁터로 변해가는데...",
 			"poster_path": "/aJCpHDC6RoGz7d1Fzayl019xnxX.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 25.275,
-			"vote_count": 3,
-			"video": false,
-			"poster_path": "/wv9CJql799ej93urPm5NQScHxrC.jpg",
-			"id": 672761,
-			"adult": false,
-			"backdrop_path": "/8vHaHNCibXXUY3iEkkGtAjidWbW.jpg",
-			"original_language": "en",
-			"original_title": "The Candy Witch",
-			"genre_ids": [
-				27
-			],
-			"title": "The Candy Witch",
-			"vote_average": 3,
-			"overview": "",
-			"release_date": "2020-06-04"
 		}
 	},
 	{
@@ -8620,29 +8065,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 16.792,
-			"id": 600950,
-			"video": false,
-			"vote_count": 2,
-			"vote_average": 4.5,
-			"title": "海吉拉",
-			"release_date": "2018-06-10",
-			"original_language": "zh",
-			"original_title": "海吉拉",
-			"genre_ids": [
-				10749,
-				18,
-				10770
-			],
-			"backdrop_path": "/xkV4L0JD0Hj4ls26nVoEh7uXUqv.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/kLsm9xzgMF83Q1N8ue4SvD9duX2.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 25.415,
 			"id": 257445,
 			"video": false,
@@ -8753,28 +8175,6 @@
 			"adult": false,
 			"overview": "어느 날 밤 이비라는 소녀가 위험에 처하자 어디선가 한 남자가 나타나 놀라운 전투력으로 그녀의 목숨을 구해준다. 옛날 국회의사당을 폭파하려다 사형당한 가이 포크스의 가면을 쓰고 모든 것을 압도하는 카리스마를 가진 남자는 V라는 이니셜로만 알려진 의문의 사나이. 맥베스와 헨리 5세의 대사들을 인용하고, 현실세계의 아픔을 노래한 윌리엄 블레이크의 시를 읊으며 악을 응징하는 V는세상을 구할 혁명을 계획하고 있다. V의 숨겨진 과거를 알아가는 동안 자신에 관한 진실을 깨달아가는 이비는 점점 V에게 이끌려 그의 혁명에 동참하게 된다.",
 			"poster_path": "/ts6cuaNyJTexbGbbnQBWZ7AyVs3.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 21.149,
-			"id": 11467,
-			"video": false,
-			"vote_count": 535,
-			"vote_average": 5.7,
-			"title": "America's Sweethearts",
-			"release_date": "2001-07-17",
-			"original_language": "en",
-			"original_title": "America's Sweethearts",
-			"genre_ids": [
-				35,
-				10749
-			],
-			"backdrop_path": "/zgkxHhvbZ8Q2j4cjrHgmwdCeGgt.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/4TQOYs8rCWi44O1tNbIQiRqHQkA.jpg"
 		}
 	},
 	{
@@ -9378,28 +8778,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 29.343,
-			"vote_count": 24,
-			"video": false,
-			"poster_path": "/95pOaHjhOhQENDaK0fvzsSCQHDC.jpg",
-			"id": 437463,
-			"adult": false,
-			"backdrop_path": "/sh4rXuam1Gd9lriKbDOKMw9p1Ti.jpg",
-			"original_language": "en",
-			"original_title": "Cold Zone",
-			"genre_ids": [
-				12,
-				878
-			],
-			"title": "콜드 존",
-			"vote_average": 4.3,
-			"overview": "",
-			"release_date": "2017-05-16"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 26.056,
 			"id": 350,
 			"video": false,
@@ -9463,30 +8841,6 @@
 			"adult": false,
 			"overview": "1950년대 뉴욕, 투렛증후군(틱장애)를 가진 외로운 사설 탐정이 그의 멘토이자 유일한 친구를 살해한 사건을 해결하려한다.",
 			"poster_path": "/jjMJy5OxJHpFIaboCklDIYdcfpD.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 26.444,
-			"vote_count": 494,
-			"video": false,
-			"poster_path": "/9YSQeIudZWH8BrWZtVIIqJlKFYi.jpg",
-			"id": 413518,
-			"adult": false,
-			"backdrop_path": "/AdqOBPw4PdtzOcfEuQuZ8MNeTKb.jpg",
-			"original_language": "it",
-			"original_title": "Pinocchio",
-			"genre_ids": [
-				12,
-				18,
-				14,
-				10751
-			],
-			"title": "피노키오",
-			"vote_average": 6.9,
-			"overview": "",
-			"release_date": "2019-12-19"
 		}
 	},
 	{
@@ -9963,28 +9317,6 @@
 			"adult": false,
 			"overview": "5살,  형을 기다리다 기차에서 깜빡 잠들어버린 다섯 살 사루는 집에서 수천 킬로미터 떨어진 곳에서 눈을 뜨게 된다. 낯선 기차역에 홀로 남겨진 사루는 보고 싶은 엄마와 형을 애타게 불러보지만 기억나는 것은 형 구뚜의 이름과 정확하지 않은 동네 이름뿐. 수 개월 동안 이곳 저곳을 떠돌며 힘겹게 살아가던 사루는 결국 인도를 떠나 호주에 살고 있는 새로운 가족 곁으로 가게 된다.  성인이 된 사루는 대학원에서 우연히 인도 친구들을 만나게 되면서 잊고 있었던 어린 시절에 대한 기억이 떠올라 혼란에 빠진다. 자신을 애타게 부르고 있을 엄마와 형에 대한 생각에 괴로워하던 사루는 구글어스로 전세계 어디든 찾을 수 있다는 친구의 말에 가느다란 희망을 붙잡고 25년 만에 집으로 가는 길을 다시 찾기 시작하는데…",
 			"poster_path": "/ue1KPcUK1sLsdBVZGM33ZDvDbCx.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 23.342,
-			"id": 530723,
-			"video": false,
-			"vote_count": 144,
-			"vote_average": 6.8,
-			"title": "배드 에듀케이션",
-			"release_date": "2019-09-08",
-			"original_language": "en",
-			"original_title": "Bad Education",
-			"genre_ids": [
-				35,
-				18
-			],
-			"backdrop_path": "/kriOlxu4KVEjd0ZaY3dW7YYyP4z.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/gizz5FphOtfSnLaGpRALOZgILd5.jpg"
 		}
 	},
 	{
@@ -10848,32 +10180,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 18.954,
-			"vote_count": 38,
-			"video": false,
-			"poster_path": "/ziIyuNNNwYqv0qbOpV9VvvdnRBb.jpg",
-			"id": 690369,
-			"adult": false,
-			"backdrop_path": "/z0AhDPXIxuZBJGDojlpdbvPAnFg.jpg",
-			"original_language": "en",
-			"original_title": "LEGO DC: Shazam! Magic and Monsters",
-			"genre_ids": [
-				28,
-				12,
-				16,
-				35,
-				878,
-				10751
-			],
-			"title": "LEGO DC: Shazam! Magic and Monsters",
-			"vote_average": 8,
-			"overview": "",
-			"release_date": "2020-04-28"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 23.455,
 			"id": 439079,
 			"video": false,
@@ -11278,29 +10584,6 @@
 			"vote_average": 6.8,
 			"overview": "영국 최고 실력을 자랑하는 사설 경호원 마이클 브라이스(라이언 레이놀즈)는 어이없는 실수로 의뢰인을 죽게 만든 후 하루아침에 일감이 뚝 끊긴다. 한편 역사상 최악의 독재자로 악명을 떨치던 벨라루스의 두코비치 대통령(게리 올드먼)이 인터폴에 체포되어 헤이그에서 국제사법재판을 받게 된다. 재판 시효가 다가올 때마다 범죄를 증명할 증인이 하나둘 죽어나가자, 사태의 심각성을 파악한 인터폴은 두코비치 대통령의 민간인 학살 범행을 증명할 희대의 킬러 다리우스(새뮤얼 L. 잭슨)를 교도소에서 빼내와 법정에 세울 계획을 세우는데...",
 			"release_date": "2017-08-16"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 19.147,
-			"id": 10742,
-			"video": false,
-			"vote_count": 137,
-			"vote_average": 5.8,
-			"title": "The Clearing",
-			"release_date": "2004-07-02",
-			"original_language": "en",
-			"original_title": "The Clearing",
-			"genre_ids": [
-				18,
-				9648,
-				53
-			],
-			"backdrop_path": "/lvhGUmqBnas0kYA0UGajQAxP6Tv.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/xtNdpdfqQIBHBWsAs9Jm8cLVbXT.jpg"
 		}
 	},
 	{
@@ -11898,30 +11181,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 19.95,
-			"vote_count": 724,
-			"video": false,
-			"poster_path": "/moyDQs4U4D4b0kG7vfqt8DKskkI.jpg",
-			"id": 506574,
-			"adult": false,
-			"backdrop_path": "/iBJCHz6wWgyxbDmUD2Wk5huxbwS.jpg",
-			"original_language": "en",
-			"original_title": "Descendants 3",
-			"genre_ids": [
-				12,
-				10402,
-				10751,
-				10770
-			],
-			"title": "디센던츠 3",
-			"vote_average": 7.9,
-			"overview": "",
-			"release_date": "2019-08-09"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 23.042,
 			"vote_count": 1521,
 			"video": false,
@@ -11963,27 +11222,6 @@
 			"adult": false,
 			"overview": "결혼 6일 만에 이혼 당하고 교통사고로 어머니까지 떠나보낸 꼬이는 인생의 주인공 폴 블라트(케빈 제임스). 뉴저지의 쇼핑몰에서 보안 요원으로 일하는 폴은 컨벤션에 초대를 받고는 대학 입학을 앞둔 외동딸 마야(라이니 로드리게즈)와 함께 라스베이거스로 향한다. 그러나 호텔에 도착한 순간부터 체크인이 꼬이고, 호텔 로비보이에게 반한 마야를 과잉 보안한 나머지 딸과의 관계마저 나빠진다. 무엇 하나 뜻대로 되지 않는 상황에서, 폴은 비록 대타로 나서는 것이지만 컨벤션에서의 기조연설자로 선정된다. 폴이 진정성 담긴 연설로 참가자들을 감동시키는 동안, 미술품을 훔치기 위해 투숙했던 빈센트 일당이 작전을 감행한다. 그런데 마야가 범죄 현장을 목격했다가 빈센트에게 붙잡히고 마는데...",
 			"poster_path": "/59NF8vsPV84KLhsWBH7rHZbLpDN.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 21.421,
-			"vote_count": 36,
-			"video": false,
-			"poster_path": "/1WkvcHvSa1EWwAYHrldLCq4bHsJ.jpg",
-			"id": 100542,
-			"adult": false,
-			"backdrop_path": "/7lK2cM9zotTi3pqX5LHe2u9IY1E.jpg",
-			"original_language": "en",
-			"original_title": "Vikingdom",
-			"genre_ids": [
-				12
-			],
-			"title": "Vikingdom",
-			"vote_average": 4.6,
-			"overview": "",
-			"release_date": "2013-09-11"
 		}
 	},
 	{
@@ -12911,29 +12149,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 22.095,
-			"vote_count": 14,
-			"video": false,
-			"poster_path": "/ykDsN1hpHFGIAkx8JnVf336rUX8.jpg",
-			"id": 536517,
-			"adult": false,
-			"backdrop_path": "/oa4bK4K9WOWFPEaR51GN6NWHQqF.jpg",
-			"original_language": "en",
-			"original_title": "Blood Machines",
-			"genre_ids": [
-				12,
-				10402,
-				878
-			],
-			"title": "Blood Machines",
-			"vote_average": 5.4,
-			"overview": "",
-			"release_date": "2019-09-14"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 25.313,
 			"vote_count": 11680,
 			"video": false,
@@ -13398,28 +12613,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 17.67,
-			"id": 530076,
-			"video": false,
-			"vote_count": 33,
-			"vote_average": 4.7,
-			"title": "Corporate Animals",
-			"release_date": "2019-09-20",
-			"original_language": "en",
-			"original_title": "Corporate Animals",
-			"genre_ids": [
-				35,
-				27
-			],
-			"backdrop_path": "/wXi3KtVDiTCXXtf0odDCRDW6pOf.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/nFiJwUXiKLcsblGKvUPHyGjLEn7.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 22.761,
 			"id": 5548,
 			"video": false,
@@ -13505,27 +12698,6 @@
 			"vote_average": 5.5,
 			"overview": "오로지 개그 하나만을 치기 위해 20년 동안 환자인 척 했던 로이드. 해리를 완벽히 속이고 임무를 완수한 그는 가뿐한 마음으로 집으로 돌아 가게 되고 뜻밖의 엽서를 한 장 받게 된다. 그 엽서의 내용은 해리의 옛 연인, 프리다 펠처로부터 아이가 생겼다는 것. 그들은 아이가 생긴다는 말에 너무 좋아하지만, 알고 보니 그 엽서는 20년 전에 보내진 것이었다. 로이드와 해리, 전설적 바보 콤비는 20년간 모르고 지냈던 딸의 행방을 찾아 웃다가 쓰러질 여정을 시작하는데...",
 			"release_date": "2014-11-12"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 29.924,
-			"vote_count": 44,
-			"video": false,
-			"poster_path": "/oyG9TL7FcRP4EZ9Vid6uKzwdndz.jpg",
-			"id": 696374,
-			"adult": false,
-			"backdrop_path": "/fDTPiqCynPQIkojfzdeyRHpw99S.jpg",
-			"original_language": "en",
-			"original_title": "Gabriel's Inferno",
-			"genre_ids": [
-				10749
-			],
-			"title": "가브리엘의 지옥",
-			"vote_average": 8.4,
-			"overview": "",
-			"release_date": "2020-05-29"
 		}
 	},
 	{
@@ -13947,28 +13119,6 @@
 			"adult": false,
 			"overview": "존 맥클레인(브루스 윌리스)은 LA에서 날아오는 아내 홀리를 마중하기 위해 공항으로 나간다. 그러나 테러리스트들이 공항을 점거하고, 마약의 대부 에스페란자 장군을 압송해 오는 비행기를 착륙시킨 후 점보기를 준비해 놓을 것을 요구한다. 홀리가 탄 비행기는 착륙하지 못하고 공항을 선회하나 연료가 떨어져 간다. 맥클레인과 특수부대원들은 테러리스트들의 본부인 교회를 습격하나 테러리스트들은 비행기에 오른다. 그러나 맥클레인은 테러리스트들의 총알이 공포탄이었음을 알고 특수 부대와 테러리스트들이 한 통속임을 알아내는데...",
 			"poster_path": "/ybki0UWO3OPhaM6MSniuKC7sy1R.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 22.264,
-			"vote_count": 105,
-			"video": false,
-			"poster_path": "/iqRUOtbDunNq7gTux3zXz25Krwp.jpg",
-			"id": 652722,
-			"adult": false,
-			"backdrop_path": "/6cqogY7SYppI0ZNchaTKszSkxwH.jpg",
-			"original_language": "es",
-			"original_title": "En brazos de un asesino",
-			"genre_ids": [
-				53,
-				10749
-			],
-			"title": "En brazos de un asesino",
-			"vote_average": 8.2,
-			"overview": "",
-			"release_date": "2019-12-06"
 		}
 	},
 	{
@@ -15885,28 +15035,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 18.392,
-			"vote_count": 53,
-			"video": false,
-			"poster_path": "/iWGDQ7MK90HOA7p9eWl194kuTx3.jpg",
-			"id": 134632,
-			"adult": false,
-			"backdrop_path": "/5WXcwMjrrGGJrUqKKrLflCmdz9v.jpg",
-			"original_language": "en",
-			"original_title": "Monster High: Ghouls Rule",
-			"genre_ids": [
-				16,
-				10751
-			],
-			"title": "Monster High: Ghouls Rule",
-			"vote_average": 6.6,
-			"overview": "",
-			"release_date": "2012-10-09"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 21.145,
 			"id": 3049,
 			"video": false,
@@ -16336,28 +15464,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 24.19,
-			"vote_count": 44,
-			"video": false,
-			"poster_path": "/zXAwq18CJYmzhLZNbLpBf3dG3A5.jpg",
-			"id": 546724,
-			"adult": false,
-			"backdrop_path": "/eCsZ308EYalJfq4hcrOjPmbNu5q.jpg",
-			"original_language": "en",
-			"original_title": "We Summon the Darkness",
-			"genre_ids": [
-				27,
-				53
-			],
-			"title": "We Summon the Darkness",
-			"vote_average": 6.6,
-			"overview": "",
-			"release_date": "2019-12-13"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 21.218,
 			"vote_count": 82,
 			"video": false,
@@ -16578,30 +15684,6 @@
 			"adult": false,
 			"overview": "많은 죄를 짓고 수감중이던 맥머피(잭 니콜슨)는 교도소에서 정신 병원으로 후송되는데, 감옥보다는 자유로울 것으로 생각했지만 전혀 그렇지 않다는 것을 깨닫는다. 정신 병원의 여러 환자들과 생활하면서 맥머피는 그들이 겉으로는 전혀 문제가 없어 보이지만 보이지 않는 병원내의 압력에 의해 짓눌려 사는 죽은 인간들임을 간파한다. 그리고 그러한 압력의 주범이 간호사 레취드(루이스 플레쳐)임을 알게 된다. 맥머피는 환자들을 끌고 병원을 빠져나가 낚시를 다녀오거나 파티를 여는 등 의도적인 반항을 시도하다 결국 탈출을 결심하게 되는데...",
 			"poster_path": "/yMgm27NWJsNblsE6Y0px7NtUBl8.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 18.209,
-			"id": 31047,
-			"video": false,
-			"vote_count": 50,
-			"vote_average": 7,
-			"title": "Jesse Stone: Night Passage",
-			"release_date": "2006-01-15",
-			"original_language": "en",
-			"original_title": "Jesse Stone: Night Passage",
-			"genre_ids": [
-				10770,
-				18,
-				53,
-				80
-			],
-			"backdrop_path": "/b8tprVuRrB11sSk026D4dNktvov.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/DVZ19T9qs0urzLSGa7bw42KN2q.jpg"
 		}
 	},
 	{
@@ -16871,29 +15953,6 @@
 			"adult": false,
 			"overview": "아내와 두 아들만을 생각하는 긍정적이고 평범한 가장 러스티. 하지만 아내는 일상을 지루해 하고, 두 아들은 음담패설을 일삼으며 언제나 싸우기만 한다. 어릴 적 아버지와 함께 갔던 월리 월드에 대한 추억에 젖어 있던 러스티는 아내와 두 아들에게 미국에서 가장 인기 있는 놀이공원 월리 월드로 가는 미 대륙 횡단 여행을 제안한다. 자신이 어릴 때 아버지가 했던 것처럼, 모두 함께 차에 올라타 도로 위를 달리기 시작하는 그리스올드 가족. 하지만 재미있고 순탄한 여행이 되리라는 기대와는 달리 사건 사고가 터지고 만다.",
 			"poster_path": "/z79MzBerDAW2EOQZCobFTO4dJ7P.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 22.96,
-			"vote_count": 2116,
-			"video": false,
-			"poster_path": "/uFUT5apEV5bMBCCkROX3JNSiuOu.jpg",
-			"id": 238615,
-			"adult": false,
-			"backdrop_path": "/kwPNyQuxp2O6aeNKDjt7wv9lre0.jpg",
-			"original_language": "en",
-			"original_title": "Self/less",
-			"genre_ids": [
-				9648,
-				878,
-				53
-			],
-			"title": "셀프 리스",
-			"vote_average": 6.3,
-			"overview": "최첨단 실험실에서 배양된 샘플에 자신의 기억을 이식, 새로운 몸으로 영원한 삶을 살 수 있는 미래. 시한부 인생을 살고 있는 뉴욕 최고의 재벌 ‘데미안’은 젊고 건강한 샘플에 자신의 기억을 이식하는 ‘셀프/리스’에 성공, 하루하루 화려한 인생을 즐긴다. 하지만, 언젠가부터 극심한 어지러움과 함께 새로운 기억들이 떠오르고, 급기야 정체불명의 사람들에게 목숨을 위협받기 시작하는데…",
-			"release_date": "2015-07-10"
 		}
 	},
 	{
@@ -17398,30 +16457,6 @@
 			"vote_average": 5.9,
 			"overview": "돈과 권력을 앞세운 권력층으로 인해 모두가 힘들어진 시기.  전쟁에서 죽은 줄 알았던 귀족 가문의 스무살 청년 ‘로빈’이 나타난 뒤 부자들의 돈만 훔친다는 후드를 쓴 남자에 대한 소문이 들려온다. 정체를 알 수 없는 그에게 막대한 현상금이 걸리지만 번번이 잡는데 실패하고 신출귀몰한 후드의 활약에 사람들도 점차 동요하기 시작하는데…",
 			"release_date": "2018-11-21"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 27.727,
-			"id": 430155,
-			"video": false,
-			"vote_count": 65,
-			"vote_average": 5,
-			"title": "코마",
-			"release_date": "2019-11-19",
-			"original_language": "ru",
-			"original_title": "Koma",
-			"genre_ids": [
-				14,
-				28,
-				10749,
-				12
-			],
-			"backdrop_path": "/oVLGuq431nF3f0yDi07q1gL4ehK.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/aDb8E6ieGtugXTe0S0Z74VE799Z.jpg"
 		}
 	},
 	{
@@ -18354,29 +17389,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 20.839,
-			"vote_count": 720,
-			"video": false,
-			"poster_path": "/wLoFxTZFEfAzFLk2qSoPbcz58Jb.jpg",
-			"id": 244761,
-			"adult": false,
-			"backdrop_path": "/fD4Q03vX0xqumc6iuDt6SujrlxI.jpg",
-			"original_language": "en",
-			"original_title": "The Captive",
-			"genre_ids": [
-				80,
-				18,
-				53
-			],
-			"title": "더 캡티브",
-			"vote_average": 5.9,
-			"overview": "",
-			"release_date": "2014-06-10"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 19.93,
 			"id": 19913,
 			"video": false,
@@ -18936,30 +17948,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 16.902,
-			"id": 35558,
-			"video": false,
-			"vote_count": 800,
-			"vote_average": 6.8,
-			"title": "Starstruck",
-			"release_date": "2010-02-14",
-			"original_language": "en",
-			"original_title": "Starstruck",
-			"genre_ids": [
-				35,
-				10749,
-				10770,
-				10402
-			],
-			"backdrop_path": "/6itAvAaG9VmfqHNhbjCfF7NZpwG.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/kuyJuNiiZvu5iNr8Dgv5y75v1uc.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 16.607,
 			"vote_count": 3768,
 			"video": false,
@@ -19391,29 +18379,6 @@
 			"adult": false,
 			"overview": "연애도, 사랑도 하지 않고 매일 작곡만 하는 로저는 영리한 달마티아 개 퐁고의 작전으로 도도한 여성 아니타와 사랑에 빠지게 되고, 결국 결혼에 성공한다. 퐁고 역시 아니타의 애완견인  페르디타와 결혼한다.  페르디타는 곧 15마리의 강아지를 낳는다. 한편 아니타의 동창이자 엄청난 부자인  크루엘라는 모피라면 정신을 차리지 못하는 악녀로, 아름다운 달마티아 개의 가죽을 모피로 만들기 위해 새끼 강아지들을 납치한다.구출 작전에 돌입한 퐁고와 페르디타는 크루엘라의 낡은 성에서 자신들의 새끼 15마리 외에도 이미 잡혀와 있던 84마리의 새끼 달마티아 개들을 발견하는데...",
 			"poster_path": "/9klDisS1sVb5LljRhpYJ0TUbPzt.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 25.294,
-			"id": 150535,
-			"video": false,
-			"vote_count": 14,
-			"vote_average": 5.2,
-			"title": "Alice au pays des Merveilles",
-			"release_date": "1949-05-13",
-			"original_language": "fr",
-			"original_title": "Alice au pays des Merveilles",
-			"genre_ids": [
-				10402,
-				10751,
-				14
-			],
-			"backdrop_path": null,
-			"adult": false,
-			"overview": "",
-			"poster_path": "/q3D7MwyT8rooPKfOd4MbPf2FuyS.jpg"
 		}
 	},
 	{
@@ -20084,28 +19049,6 @@
 			"adult": false,
 			"overview": "술집 여종업원인 아멘다 훤세커(Amanda Hunsaker: 잭키 스완슨 분)가 약을 복용하고 호텔 아래로 뛰어내려 죽는다. 사건을 맡게 된 로저 머터프(Roger Murtaugh: 대니 글로버 분) 형사는 50대에 들어서 은퇴도 멀지 않은 노형사인데, 아멘다가 자기의 옛 월남전 전우인 마이크 훤세커(Michael Hunsaker: 톰 엣킨스 분)의 딸이라는 것을 알고는 더욱 애석해 한다. 게다가 조수로 배정된 사람이 경찰서 내에서 말썽많기로 소문나 있고 아내를 잃은 뒤 더욱 거칠어져 물불을 안가리는 마틴 릭스(Martin Riggs: 멜 깁슨 분) 형사라는 걸 알고 심란해 한다.  로저는 아멘다의 아버지 훤세커를 만나 추궁한 끝에 훤세커가 월남전에 특수부대 요원들과 함께 마약 밀수를 했다는 사실을 알게 된다. 훤세커가 발을 빼려하자 딸을 죽인 것이다. 그러나 훤세커마저 조직에 의해 살해된다. 로저의 딸이 납치한 이들 조직은 군 출신의 장군(The General: 밋첼 라이언 분)이라는 자가 지휘하는 범죄 조직으로, 두 형사도 이들과 협상 장소로 갔다가 잡히고 만다. 하지만 불같은 릭스가 탈출하여 조직을 일망타진하고, 조직의 하수인인 죠슈아(Mr. Joshua: 게리 부시 분)와 일대일 결투를 벌여 그를 눕힌다",
 			"poster_path": "/kxqqY0WUcnT66KYYxaydTmU1vrU.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 19.73,
-			"id": 611179,
-			"video": false,
-			"vote_count": 7,
-			"vote_average": 5.4,
-			"title": "The Trip to Greece",
-			"release_date": "2020-03-03",
-			"original_language": "en",
-			"original_title": "The Trip to Greece",
-			"genre_ids": [
-				35,
-				18
-			],
-			"backdrop_path": "/xyqKAhYn98rBlHThYuTBzuntsdj.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/uY6IwkB2htRofNNpYNYiTmv7jnY.jpg"
 		}
 	},
 	{
@@ -21643,27 +20586,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 20.571,
-			"id": 486882,
-			"video": false,
-			"vote_count": 9,
-			"vote_average": 6.1,
-			"title": "89",
-			"release_date": "2017-11-10",
-			"original_language": "en",
-			"original_title": "89",
-			"genre_ids": [
-				99
-			],
-			"backdrop_path": "/s4J9iZZ6dX1CgjnRiIzD0CGU6Wk.jpg",
-			"adult": false,
-			"overview": "",
-			"poster_path": "/fEwvelvZLJJzatnPpmSIQH3t0gY.jpg"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 22.133,
 			"id": 63,
 			"video": false,
@@ -21726,29 +20648,6 @@
 			"vote_average": 5.8,
 			"overview": "크리스탈 호수 캠프장에 얽힌 숨겨진 전설\r 달빛이 아름답게 빛나는 크리스탈 호수 캠프장에는 한가지 전설이 있다. 20여 년 전 캠프 요원의 부주의로 한 아이가 익사한 후 그의 엄마가 아들의 복수를 위해 살인을 저지른 것. 그러나 유일한 생존자가 그녀의 목을 베었고 이것을 지켜보는 한 아이가 있었다. 익사한 줄 알았던 아이 제이슨… 그날 이후 크리스탈 캠프장은 폐쇄되고 인적조차 드문 폐허가 되었다. 그러나 밤만 되면 호수를 배회하는 그림자가 목격되고 있다는 것이다.  전설은 현실이 되고.. 현실은 공포가 된다!  그리고 20년이 지난 어느 날, 크리스탈 호수로 친구들과 신나게 주말을 즐기러 온 트렌트와 친구들. 근사한 차를 타고 별장에 도착한 들뜬 일행에게 뜻하지 않는 손님이 찾아온다. 6주전 실종된 여동생을 찾는 클레이를 만난 것. 주말 파티를 즐기려는 일행에게 왠지 낯선 방문자가 꺼림직하기만 하다. 그러나 클레이의 동생 역시 크리스탈 호수에서 캠핑 중 실종되었으며 전설로만 여기던 제이슨이 점점 가깝게 다가오는 것을 알게 되는데…",
 			"release_date": "2009-02-11"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
-			"popularity": 17.58,
-			"vote_count": 168,
-			"video": false,
-			"poster_path": "/uZvWmX3fhjnlIbiou5ziR6aVN7b.jpg",
-			"id": 25137,
-			"adult": false,
-			"backdrop_path": "/a2NwfaoYCga2NhCIJkCN1fyZGM1.jpg",
-			"original_language": "en",
-			"original_title": "Beyond a Reasonable Doubt",
-			"genre_ids": [
-				80,
-				18,
-				53
-			],
-			"title": "Beyond a Reasonable Doubt",
-			"vote_average": 5.8,
-			"overview": "",
-			"release_date": "2009-02-05"
 		}
 	},
 	{
@@ -22003,29 +20902,6 @@
 	{
 		"model": "movies.movie",
 		"fields": {
-			"popularity": 18.326,
-			"vote_count": 21,
-			"video": false,
-			"poster_path": "/akmjfKPlxBAdXi4G1TZOirty8Ia.jpg",
-			"id": 513268,
-			"adult": false,
-			"backdrop_path": "/1CoeP4p44aGqjMnFZrsNNT4oj5F.jpg",
-			"original_language": "en",
-			"original_title": "Body Cam",
-			"genre_ids": [
-				27,
-				9648,
-				53
-			],
-			"title": "바디 캠",
-			"vote_average": 5.8,
-			"overview": "",
-			"release_date": "2020-05-19"
-		}
-	},
-	{
-		"model": "movies.movie",
-		"fields": {
 			"popularity": 19.766,
 			"id": 18269,
 			"video": false,
@@ -22176,6 +21052,30 @@
 			"adult": false,
 			"overview": "전직 기자 지금은 백수인 ‘프레드 플라스키’(세스 로건)는 20년 만에 첫사랑 베이비시터 ‘샬롯 필드’(샤를리즈 테론)와 재회한다. 그런데 그녀가!? 미 최연소 국무 장관이자 세계에서 가장 영향력 있는 여성 중 한 명인 ‘샬롯’이 바로 베이비시터 그녀라는 것은 믿기지 않지만 실화이다. 인생에 공통점이라고는 1도 없는 두 사람. 대선 후보로 출마를 준비 중인 ‘샬롯’은 모두의 예상을 깨고 자신의 선거 캠페인 연설문 작가로 ‘프레드’를 고용한다. 어디로 튈지 모르는 ‘프레드’ 때문에 선거 캠페인은 연일 비상인 가운데, 뜻밖에 그의 스파크는 ‘샬롯’과의 로맨스로 튀어 버리는데... 사고 치는데 천부적인 재능이 있는 남자, 머리부터 발끝까지 완벽한 여자. 이 조합 실화?",
 			"poster_path": "/rGiFaSGVq7rfl0O19u9pJwP5cb0.jpg"
+		}
+	},
+	{
+		"model": "movies.movie",
+		"fields": {
+			"popularity": 20.961,
+			"id": 616,
+			"video": false,
+			"vote_count": 4271,
+			"vote_average": 7.5,
+			"title": "라스트 사무라이",
+			"release_date": "2003-01-09",
+			"original_language": "en",
+			"original_title": "The Last Samurai",
+			"genre_ids": [
+				18,
+				28,
+				10752,
+				36
+			],
+			"backdrop_path": "/lm15lu2jt3I3Syxsb90UJzUzMRV.jpg",
+			"adult": false,
+			"overview": "조국과 명예를 위해 목숨을 걸고 전장터를 누볐던 네이든 알그렌 대위. 그러나 남북전쟁이 끝난 후, 세상은 변했다. 용기와 희생, 명예와 같은 군인의 덕목은 실용주의와 개인의 이익을 추구하는 시대 흐름에 밀려 설 자리를 잃게 되고, 그가 참여했던 전쟁의 명분조차 퇴색해버리자 알그렌은 허탈감에 빠진다. 그리고 지구 반대편에선 또 한명의 무사가 가치관의 혼란 속에 갈등을 겪고 있었다. 황제와 국가에 목숨 바쳐 충성해온 사무라이의 마지막 지도자 카츠모토가 바로 그. 미국이 신문명의 조류 속에서 변혁의 소용돌이에 휘말려있던 그 시기에, 일본의 전통 문화 역시 서양 문물의 도입으로 개혁의 홍역을 앓고 있었다. 새롭게 도입된 철도와 우편제도는 사무라이가 수세기 동안 목숨 걸고 지켜온 가치관을 뒤흔들어 놓고 있었던 것이다. 그러나, 카츠모토에게 전쟁 없는 삶은 곧 죽음이었다.",
+			"poster_path": "/ovRdxTdjJWo3sRZWlv7nD4sM74G.jpg"
 		}
 	}
 ]

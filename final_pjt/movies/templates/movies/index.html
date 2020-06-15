@@ -15,7 +15,7 @@
   {% for movie in page_obj %}
   <div class="col-sm-4 col-md-4">
     <br>
-    <div class="card mb-4 pr-2 border border-warning" style="width: 18rem; height: 50rem;">
+    <div class="card mb-4 pr-1 pl-1 border border-warning" style="width: 18rem; height: 48rem;">
       {% if movie.poster_path == null %}
       <img style="width: 275.212px; height:416.4px;" src="https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg" alt="...">
       
@@ -25,7 +25,10 @@
       {% endif %}
       <div class="card-body">
         <a href="{% url 'movies:detail' movie.pk %}" class="card-title">{{ movie.title }}</a>
-        <p class="card-text">{{ movie.overview|truncatewords:10 }}</p>
+        {% if movie.overview %}
+          <p class="card-text">{{ movie.overview|truncatewords:10 }}</p>  
+          <a href="{% url 'movies:detail' movie.pk %}"><button >영화정보 더보기</button></a>
+        {% endif %}
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">개봉일: {{ movie.release_date }}</li>

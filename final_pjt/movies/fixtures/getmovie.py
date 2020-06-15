@@ -21,43 +21,44 @@ for i in range(1, 51):
         if ResultData[j]['poster_path'] != None:
             if ResultData[j]['vote_average'] != 0:
                 if len(ResultData[j]['genre_ids']) > 0:
-            
-                    my_data = dict()
-                    my_data['model'] = "movies.movie"
-                    
+                    if ResultData[j]['overview'] != "" :
 
-                    # if 'original_title' not in ResultData[j].keys():
-                    #     ResultData[j]['original_title'] = '1'
-                    # if 'release_date' not in ResultData[j].keys():
-                    #     ResultData[j]['release_date'] = '1'
-                    # if 'popularity' not in ResultData[j].keys():
-                    #     ResultData[j]['popularity'] = '1'
-                    # if 'vote_count' not in ResultData[j].keys():
-                    #     ResultData[j]['vote_count'] = '1'
-                    # if 'vote_average' not in ResultData[j].keys():
-                    #     ResultData[j]['vote_average'] = '1'
-                    # if 'adult' not in ResultData[j].keys():
-                    #     ResultData[j]['adult'] = '1'
-                    # if 'video' not in ResultData[j].keys():
-                    #     ResultData[j]['video'] = '1'
-                    # if 'overview' not in ResultData[j].keys():
-                    #     ResultData[j]['overview'] = '1'
-                    # if 'original_language' not in ResultData[j].keys():
-                    #     ResultData[j]['original_language'] = '1'
-                    # if ResultData[j]['poster_path'] == None:
-                    #     ResultData[j]['poster_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
-                    # if ResultData[j]['backdrop_path'] == None:
-                    #     ResultData[j]['backdrop_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
+                        my_data = dict()
+                        my_data['model'] = "movies.movie"
+                        
+
+                        # if 'original_title' not in ResultData[j].keys():
+                        #     ResultData[j]['original_title'] = '1'
+                        # if 'release_date' not in ResultData[j].keys():
+                        #     ResultData[j]['release_date'] = '1'
+                        # if 'popularity' not in ResultData[j].keys():
+                        #     ResultData[j]['popularity'] = '1'
+                        # if 'vote_count' not in ResultData[j].keys():
+                        #     ResultData[j]['vote_count'] = '1'
+                        # if 'vote_average' not in ResultData[j].keys():
+                        #     ResultData[j]['vote_average'] = '1'
+                        # if 'adult' not in ResultData[j].keys():
+                        #     ResultData[j]['adult'] = '1'
+                        # if 'video' not in ResultData[j].keys():
+                        #     ResultData[j]['video'] = '1'
+                        # if 'overview' not in ResultData[j].keys():
+                        #     ResultData[j]['overview'] = '1'
+                        # if 'original_language' not in ResultData[j].keys():
+                        #     ResultData[j]['original_language'] = '1'
+                        # if ResultData[j]['poster_path'] == None:
+                        #     ResultData[j]['poster_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
+                        # if ResultData[j]['backdrop_path'] == None:
+                        #     ResultData[j]['backdrop_path'] = 'https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg'
 
 
-                    # if 'genre_ids' not in ResultData[j].keys():
-                    #     ResultData[j]['original_title'] = '1'
-                    # if 'like_users' not in ResultData[j].keys():
-                    #     ResultData[j]['original_title'] = '1'
-                    
-                    my_data['fields'] = ResultData[j]
-                    # print(ResultData[j].get('title'))
-                    result.append(my_data)
+                        # if 'genre_ids' not in ResultData[j].keys():
+                        #     ResultData[j]['original_title'] = '1'
+                        # if 'like_users' not in ResultData[j].keys():
+                        #     ResultData[j]['original_title'] = '1'
+                        
+                        my_data['fields'] = ResultData[j]
+                        # print(ResultData[j].get('title'))
+                        result.append(my_data)
 
 # print(result)
 
