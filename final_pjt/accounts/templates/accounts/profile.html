@@ -9,7 +9,7 @@
 {% endwith %}
 
 {% if user != person %}
-    {% if user in person.followers %}
+    {% if user in person.followers.all %}
         <a href="{% url 'accounts:follow' person.username %}">언팔로우</a>
     {% else %}
         <a href="{% url 'accounts:follow' person.username %}">팔로우</a>

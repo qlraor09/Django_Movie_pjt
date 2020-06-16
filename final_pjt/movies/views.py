@@ -341,7 +341,7 @@ def recommend(request):
     genres = Genre.objects.all()
     # 추천요청 데이터 전부
     recommands = Recommand.objects.all()
-    print(recommands)
+    # print(recommands)
     # 추천요청 중 장르만 뽑은 것
     genre_recommands = Recommand.objects.values('genre_recommand')
     
@@ -352,32 +352,44 @@ def recommend(request):
         # 이하는 추천 알고리즘
         # form에 들어간 genre 에 따라
         choice_genres = []
+        # print(genre_recommands)
         for favorite_genre in genre_recommands:
-            print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
-            print(favorite_genre['genre_recommand'])
-            choice_genres.append(favorite_genre['genre_recommand'])
-            # if choice.genre_recommand == movie.genre_ids:        
-        print(choice_genres)
-
-
+            # print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
+            # print(favorite_genre)
+            choice_genres.append(favorite_genre['genre_recommand'])    
+        # print(choice_genres)
 
 
         for movie in movies:
-            if choice_genres == movie.genre_ids:
+            for movie_genre in movie.genre_ids.all():
+                # print('**************************************************')
+                # print(movie_genre.id)
+                # print(choice_genres)
+                if movie_genre.id in choice_genres:
+                    
+                    choice_genres.pop(0)
+                # print(choice_genres)
+                if len(choice_genres) == 0:
+
         # form에 들어간 adult 여부에 따라
-                # if recommands.adult == movie.adult:
+                    if Recommand.objects.values('adult').get()['adult'] == movie.adult:
         # form에 들어간 popularity 에 따라
-                if recommand.popularity <= movie.popularity:
+                    # print('##@!@#@!#@!#@!#')
+                    # print(Recommand.objects.values('popularity').get()['popularity'])
+                        if Recommand.objects.values('popularity').get()['popularity'] <= movie.popularity:
+                            # print(movie.popularity)
         # form에 들어간 vote_average 에 따라
-                    if recommand.vote_average <= movie.vote_average:
+                            if Recommand.objects.values('vote_average').get()['vote_average'] <= movie.vote_average:
         # form에 입력한 release_dat에 따라
-                        choice.append(movie)
+                                choice.append(movie)
     choices = choice
+    # print(choices)
     context = {
         'choices' : choices,
         'genres': genres,
         'recommands' : recommands,
         'genre_recommands' : genre_recommands,
+        
     }
     return render(request, 'movies/recommand.html', context)
 
