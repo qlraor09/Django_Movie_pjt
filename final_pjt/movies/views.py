@@ -6,7 +6,7 @@ from django.views.decorators.http import require_POST
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user_model
 from django.core.paginator import Paginator
-import random, requests
+import random, requests, datetime
 
 
 def index(request):
@@ -341,7 +341,6 @@ def recommend(request):
     genres = Genre.objects.all()
     # 추천요청 데이터 전부
     recommands = Recommand.objects.all()
-    # print(recommands)
     # 추천요청 중 장르만 뽑은 것
     genre_recommands = Recommand.objects.values('genre_recommand')
     
@@ -352,38 +351,38 @@ def recommend(request):
         # 이하는 추천 알고리즘
         # form에 들어간 genre 에 따라
         choice_genres = []
-        # print(genre_recommands)
+        check = 1
         for favorite_genre in genre_recommands:
-            # print('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
-            # print(favorite_genre)
-            choice_genres.append(favorite_genre['genre_recommand'])    
-        # print(choice_genres)
 
+            choice_genres.append(favorite_genre['genre_recommand'])
+            check = check * favorite_genre['genre_recommand']
+##########################################################################################
 
         for movie in movies:
+            compare = 1
+            compare2 = []
             for movie_genre in movie.genre_ids.all():
-                # print('**************************************************')
-                # print(movie_genre.id)
-                # print(choice_genres)
-                if movie_genre.id in choice_genres:
-                    
-                    choice_genres.pop(0)
-                # print(choice_genres)
-                if len(choice_genres) == 0:
-
-        # form에 들어간 adult 여부에 따라
+                compare = compare * movie_genre.id
+                compare2.append(movie_genre.id)
+            ####아닌것들 제외하기 위한 조건
+            if compare % check == 0:
+                flag = True
+                for x in choice_genres:
+                    if x not in compare2:
+                        flag = False
+                if flag == True:
                     if Recommand.objects.values('adult').get()['adult'] == movie.adult:
         # form에 들어간 popularity 에 따라
-                    # print('##@!@#@!#@!#@!#')
-                    # print(Recommand.objects.values('popularity').get()['popularity'])
                         if Recommand.objects.values('popularity').get()['popularity'] <= movie.popularity:
-                            # print(movie.popularity)
         # form에 들어간 vote_average 에 따라
                             if Recommand.objects.values('vote_average').get()['vote_average'] <= movie.vote_average:
-        # form에 입력한 release_dat에 따라
-                                choice.append(movie)
+        # form에 입력한 release_date에 따라
+                                # 값이 작을수록 최신에 개봉한 영화입니다.
+                                if datetime.datetime.strptime(str(Recommand.objects.values('release_date').get()['release_date']), "%Y-%m-%d") <= datetime.datetime.strptime(str(movie.release_date), "%Y-%m-%d"):
+                                    choice.append(movie)
+ 
     choices = choice
-    # print(choices)
+
     context = {
         'choices' : choices,
         'genres': genres,
