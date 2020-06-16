@@ -1,28 +1,45 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="d-flex " id="first">
+  <div class="iframebox col-8" allowfullscreen id="iframebox">
+    <!-- <iframe src="{{ video }}" frameborder="0" allow=autoplay id="video"></iframe> -->
+    <iframe src="https://www.youtube.com/watch?v=F9Ex1ESEWN4" frameborder="0" allow=autoplay id="video"></iframe>
+  </div>
+
+  <div class="col-4 p-0 ml-0 text-center text-white" style="margin-left: 10px" id="first_right">
+    
+    <div class="bg-dark ml-0 m-0" style="height: 2.5em;"><p  id="main" style="font-size: x-large; font-weight: 600;">Todays Movie<p></div>
+    <br>
+    <h3 class="m-0" id="main">{{ top_movies.original_title }}</h4>
+    <br>
+    
+    <p class="text-left m-0" id="main">{{ top_movies.overview|truncatewords:27 }}</p>
+    <br>
+    <div class="mt-5">
+      <span>장르: </span>
+      {% for genre in top_movies.genre_ids.all %}
+        <span class="m-0" id="main">{{ genre.name }}</span>
+      {% endfor %}
+      <p id="main" class="m-0">개봉일: {{ top_movies.release_date }}</p>
+      <p class="text-bottom m-0" id="main">{{ movie.like_users.all|length }} 명이 이 영화를 추천합니다!</p>
+      <span>
+        <a href=""><button>상세정보</button></a>
+        <a href=""><button>찜하기</button></a>
+      </span>
+    </div>  
+  </div>
 
 
-<h1 style="text-align: center;">Welcome To Theater!</h1>
-<div class="d-flex justify-content-center" >
-  <a href="{% url 'movies:recommand' %}" class="btn btn-danger mx-1">영화추천</a>
-  {% if user.is_superuser %}
-  <a href="{% url 'movies:movie_create' %}" class="btn btn-primary float-right mx-1">영화목록추가</a>
-  {% endif %}
 </div>
-<br>
 
-<div class="row bg-secondary">
+<div class="row ml-2 mr-2"id="second">
   {% for movie in page_obj %}
-  <div class="col-sm-4 col-md-4">
+  <div class="col-4">
     <br>
     <div class="card mb-4 pr-1 pl-1 border border-warning" style="width: 18rem; height: 48rem;">
-      {% if movie.poster_path == null %}
-      <img style="width: 275.212px; height:416.4px;" src="https://www.seoularts.ac.kr/Web-home/func/familyCompany/images/noimg.jpg" alt="...">
-      
-      {% else %}
+
       <img src="https://image.tmdb.org/t/p/w780/{{ movie.poster_path }}" class="d-flex justify-content-center card-img-top border border-dark" alt="...">
-      
-      {% endif %}
+
       <div class="card-body">
         <a href="{% url 'movies:detail' movie.pk %}" class="card-title">{{ movie.title }}</a>
         {% if movie.overview %}
@@ -40,10 +57,10 @@
           {% endfor %}
         </li>
       </ul>
+      
     </div>
   </div>
   {% endfor %}
-  </div>
 </div>
 
 
