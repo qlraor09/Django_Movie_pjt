@@ -17,7 +17,8 @@ def index(request):
     page_obj = paginator.get_page(page_number)
 
     
-    # YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
+    # YOUTUBE_API_KEY='AIzaSyDg3rv7AY_NPpnZBcYGPx5sGePSuxzkGko'
+    
     # YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
     # random_number = range(0, 9)
     # top_movies = movies[int(random.choice(random_number))]
@@ -120,7 +121,7 @@ def detail(request, movie_pk):
     genres = movie.genre_ids.all()
     # youtube에서 트레일러 가져오기
 
-    # YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
+    # YOUTUBE_API_KEY='AIzaSyDg3rv7AY_NPpnZBcYGPx5sGePSuxzkGko'
     # YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
     # params = {
     #     'key': YOUTUBE_API_KEY,
