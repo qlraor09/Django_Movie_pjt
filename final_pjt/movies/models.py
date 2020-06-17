@@ -45,7 +45,7 @@ class Comment(models.Model):
 
 
 class Recommand(models.Model):
-    genre_recommand = models.ManyToManyField(Genre, null=True,  related_name='genre_recommand')
+    genre_recommand = models.ManyToManyField(Genre, related_name='genre_recommand')
     adult = models.BooleanField(null=True)
     popularity = models.FloatField(null=True)
     vote_average = models.FloatField(null=True)

@@ -8,7 +8,7 @@
 <h1 class="text-center">수정하기</h1>
 {% endif %}
 
-<form style="width: 720px;" class="mx-auto action="" method="POST">
+<form style="width: 720px;" class="mx-auto" action="" method="POST">
     {% csrf_token %}
     {% bootstrap_form form %}
     {% if request.resolver_match.url_name == 'create' %}

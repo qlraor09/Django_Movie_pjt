@@ -17,28 +17,28 @@ def index(request):
     page_obj = paginator.get_page(page_number)
 
     
-    YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
-    YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
-    random_number = range(0, 9)
-    top_movies = movies[int(random.choice(random_number))]
+    # YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
+    # YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
+    # random_number = range(0, 9)
+    # top_movies = movies[int(random.choice(random_number))]
     
-    params = {
-        'key': YOUTUBE_API_KEY,
-        'part': 'snippet',
-        'type': 'video',
-        'q': top_movies.title + 'trailer'
-    }
-    response = requests.get(YOUTUBE_URL, params=params).json()
-    video_id = response['items'][0]['id']['videoId']
-    video = f'https://www.youtube.com/embed/{video_id}?autoplay=1'
+    # params = {
+    #     'key': YOUTUBE_API_KEY,
+    #     'part': 'snippet',
+    #     'type': 'video',
+    #     'q': top_movies.title + 'trailer'
+    # }
+    # response = requests.get(YOUTUBE_URL, params=params).json()
+    # video_id = response['items'][0]['id']['videoId']
+    # video = f'https://www.youtube.com/embed/{video_id}?autoplay=1'
 
     context = {
         'page_obj': page_obj,
         'movies' : movies,
         'genres' : genres,
-        'video' : video,
-        'my_movie': movies[0],
-        'top_movies' : top_movies
+        # 'video' : video,
+        # 'my_movie': movies[0],
+        # 'top_movies' : top_movies
     }
     return render(request, 'movies/index.html', context)
 
@@ -120,22 +120,22 @@ def detail(request, movie_pk):
     genres = movie.genre_ids.all()
     # youtube에서 트레일러 가져오기
 
-    YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
-    YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
-    params = {
-        'key': YOUTUBE_API_KEY,
-        'part': 'snippet',
-        'type': 'video',
-        'q': movie.title + 'trailer'
-    }
-    response = requests.get(YOUTUBE_URL, params=params).json()
-    video_id = response['items'][3]['id']['videoId']
-    video = f'https://www.youtube.com/embed/{video_id}'
+    # YOUTUBE_API_KEY='AIzaSyDZ8volmsp-EzcqFDGcTqJ-yIslbuS6lZA'
+    # YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search'
+    # params = {
+    #     'key': YOUTUBE_API_KEY,
+    #     'part': 'snippet',
+    #     'type': 'video',
+    #     'q': movie.title + 'trailer'
+    # }
+    # response = requests.get(YOUTUBE_URL, params=params).json()
+    # video_id = response['items'][3]['id']['videoId']
+    # video = f'https://www.youtube.com/embed/{video_id}'
     context = {
         'movie': movie,
         'reviews': reviews,
         'genres': genres,
-        'video': video
+        # 'video': video
     }
     return render(request, 'movies/detail.html', context)
 
